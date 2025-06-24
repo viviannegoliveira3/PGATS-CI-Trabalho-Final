@@ -29,7 +29,6 @@ jobs:
       - name: Instalando dependências
         run: yarn
 
-
       - name: Executando Testes E2E
         run: yarn run e2e ./trabalho/trabalho-final.js
 
