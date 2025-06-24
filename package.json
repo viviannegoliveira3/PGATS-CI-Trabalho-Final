@@ -6,7 +6,9 @@
   "type": "module",
   "devDependencies": {},
   "scripts": {
-    "trabalho":  "yarn run  ./trabalho/trabalho-final.js"
+    "start": "node server.js",
+    "build": "webpack",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
