@@ -64,12 +64,13 @@ export {
 
 
 async function buscarDadoAsync(){
-    const resultado = 'Pipoca';
-    return 'Pipoca'
-
+     try {
+        return dados.nomePet
+    } catch (erro) {
+        console.error('Erro ao buscar dado:', erro)
+        throw erro
+    }
 }
-
-console.log(await buscarDadoAsync('Pipoca'))
 
 
 
