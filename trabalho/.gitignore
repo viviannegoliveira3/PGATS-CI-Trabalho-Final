@@ -1,6 +1,8 @@
-/node_modules
-yarn.lock
-/mochawesome-report
-package-lock.json
-/test-results
-*.xml
+node_modules
+.stryker-tmp
+reports
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+results.xml
