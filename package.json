@@ -6,7 +6,7 @@
   "type": "module",
   "devDependencies": {},
   "scripts": {
-    "trabalho":  "yarn run e2e ./trabalho/trabalho-final.js"
+    "trabalho":  "yarn run  ./trabalho/trabalho-final.js"
   },
   "repository": {
     "type": "git",
