@@ -5,7 +5,7 @@
   "main": "trabalho.js",
   "devDependencies": {},
   "scripts": {
-    "test": "e2e:yarn run e2e"
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
