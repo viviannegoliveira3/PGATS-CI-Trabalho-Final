@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "��#\u0000 \u0000p\u0000g\u0000a\u0000t\u0000s\u0000-\u0000p\u0000r\u0000o\u0000g\u0000r\u0000a\u0000m\u0000a\u0000c\u0000a\u0000o\u0000-\u0000j\u0000s\u0000\r\u0000 \u0000",
   "main": "trabalho.js",
+  "type": "module",
   "devDependencies": {},
   "scripts": {
-    "trabalho":  "node ./trabalho/trabalho-final.js"
+    "trabalho":  "yarn run e2e ./trabalho/trabalho-final.js"
   },
   "repository": {
     "type": "git",
