@@ -30,7 +30,7 @@ jobs:
         run: yarn
 
       - name: Executando Testes
-        run: npm test  ./trabalho/trabalho-final.js
+        run: node  ./trabalho/trabalho-final.js
 
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled()}}

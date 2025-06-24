@@ -5,7 +5,7 @@
   "main": "trabalho.js",
   "devDependencies": {},
   "scripts": {
-    "test":  "yarn run"
+    "trabalho":  "node ./trabalho/trabalho-final.js"
   },
   "repository": {
     "type": "git",
