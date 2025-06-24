@@ -29,8 +29,8 @@ jobs:
       - name: Instalando dependências
         run: yarn
 
-      - name: Executando Testes E2E
-        run: yarn run test  ./trabalho/trabalho-final.js
+      - name: Executando Testes
+        run: npm test  ./trabalho/trabalho-final.js
 
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled()}}
