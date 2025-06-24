@@ -30,7 +30,7 @@ jobs:
         run: yarn
 
       - name: Executando Testes E2E
-        run: yarn mocha  ./trabalho/trabalho-final.js
+        run: yarn run test  ./trabalho/trabalho-final.js
 
       - uses: actions/upload-artifact@v4
         if: ${{ !cancelled()}}
