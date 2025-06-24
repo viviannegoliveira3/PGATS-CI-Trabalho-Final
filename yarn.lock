@@ -398,9 +398,9 @@ signal-exit@^4.0.1, signal-exit@^4.1.0:
   integrity sha512-bzyZ1e88w9O1iNJbKnOlvYTrWPDl46O1bG0D3XInv+9tkPrxrN8jUUTiFlDkkmKWgn1M6CfIA13SuGqOa9Korw==
 
 string-width-cjs@^4.2.3:
-  version "5.1.1"
-  resolved "https://registry.yarnpkg.com/string-width-cjs/-/string-width-cjs-5.1.1.tgz#9db7e00211027471870621778b089402cf9bdee3"
-  integrity sha512-N5/f0RNFtXPNDLtEvo8Y/+mH4xZWzIAnnqXPzCB4BBAQL8P3sHlz0dqDzTkGQoVsL56aCsORFFlyvA70k5yq3A==
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/string-width-cjs/-/string-width-cjs-1.0.0.tgz#7fde3484879a8003374f738380d129e476082529"
+  integrity sha512-ftRuW7do51bmtc04kR5ZOsz396bGTq0kyPe9jAKZqRharQbZfNu9AC1EwJ2nQTNRxbK778QD9tDky4xPHRug9w==
 
 "string-width-cjs@npm:string-width@^4.2.0":
   version "4.2.3"
@@ -430,9 +430,9 @@ string-width@^5.0.1, string-width@^5.1.2:
     strip-ansi "^7.0.1"
 
 strip-ansi-cjs@^6.0.1:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/strip-ansi-cjs/-/strip-ansi-cjs-8.0.0.tgz#76d90a591aa708eb8b5c95c205ad2757ada599d9"
-  integrity sha512-32gkt3BeWEaDWScWe6w75HZX3dgTwM6SCzYZOJqnQWwGIugHHj5+u/TSzZUbcEsg8v0dpVljHNHcUJ+1dmVRqw==
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/strip-ansi-cjs/-/strip-ansi-cjs-2.0.0.tgz#bb3b822f0f72c2bf6efb789a8db6e66bb63fb91e"
+  integrity sha512-HFESgI8/RPAHiCEK5xdPF6qCQ01FnAW71+eiPAYkRKQ42UhQ1GoIJ7CX8BxPGpxANaRI8dhm/GsEckOH98Jj8w==
 
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1":
   version "6.0.1"
@@ -492,9 +492,9 @@ workerpool@^9.2.0:
   integrity sha512-Xz4Nm9c+LiBHhDR5bDLnNzmj6+5F+cyEAWPMkbs2awq/dYazR/efelZzUAjB/y3kNHL+uzkHvxVVpaOfGCPV7A==
 
 wrap-ansi-cjs@^7.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/wrap-ansi-cjs/-/wrap-ansi-cjs-8.0.0.tgz#e9b2e842f42a1787e598f15669201f3178e1f79e"
-  integrity sha512-ulIS1SVkr+L2i8Zdp7x7ghDD3HCrrGXnMJ5ZbT1F9HBDugpT9o0e9qkCHj6cXJRLQYHy1xlY2i9BzvvSV/C8sQ==
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/wrap-ansi-cjs/-/wrap-ansi-cjs-1.0.0.tgz#549fbe5abb51671487bb828147f6403ab7c2c06c"
+  integrity sha512-fsvNffasX9knEeKVeSX6SPYnWCmO03ayVLfTDDvtgtUZfN034RcrybyWOPpls9tEX4YgfdH9LuwE35D1oxfSyQ==
 
 "wrap-ansi-cjs@npm:wrap-ansi@^7.0.0":
   version "7.0.0"
