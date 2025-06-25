@@ -1,40 +1,46 @@
 
 
+# CI de Nível 01 - Disparo manual a partir de 1 clique
+
+# Nome do nosso 'Pipeline'
 name: 'Execução Manual'
+
+# Regras de disparo (gatilhos/triggers)
+# Gatilho e execução manual = workflow_dispatch
 
 on:
 
   workflow_dispatch:
 
-
+# Trabalhos/tarefas dentro do pipeline = jobs
 jobs:
-  e2e-testes:
-  
+  e2e-tests:
+    # Nome do trabalho
+    name: 'Execução de Testes E2E'
+
+    # Execução em um container Docker (https://github.com/actions/runner-images)
     runs-on: ubuntu-latest
 
-    
+    # Passos do script de build
     steps:
-      
-      - uses: actions/checkout@v4
+      # Clone do projeto (https://github.com/marketplace/actions/checkout)
+      - name: 'Clone do repositório'
+        uses: actions/checkout@v4
 
-  
-      - uses: actions/setup-node@v4
+      # Instalação do Node.js
+      - name: 'Instalação do Node.js'
+        uses: actions/setup-node@v4
         with:
-          node-version: 22.x
+          node-version: '22.x'
 
-      
-      - name: Instalando Yarn
-        run: npm install -g yarn
+      # Instalação do Yarn
+      - name: 'Instalação do Yarn'
+        run: npm install --global yarn
 
-    
-      - name: Instalando dependências
-        run: yarn
+      # Instalação das dependências do projeto
+      - name: 'Instalação das dependências do projeto'
+        run: yarn install
 
-      - name: Executando Testes e2e
-        run: yarn run e2e ./trabalho/trabalho-final.js
-
-      - uses: actions/upload-artifact@v4
-        if: ${{ !cancelled()}}
-        with:
-          name: relatorio
-          path: ./playwright-report
+      # Execução dos testes E2E
+      - name: 'Execução dos testes E2E'
+        run: yarn run e2e
