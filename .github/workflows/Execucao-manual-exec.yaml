@@ -3,6 +3,7 @@
 name: 'Execução Manual'
 
 on:
+  push:
   workflow_dispatch:
 
 
